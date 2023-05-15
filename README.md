@@ -19,7 +19,7 @@ As of 03/07/2023, there are 3 component files of the ImagesLoaderV5.tbx.
 ## Parameters
 ***
 
-1) ImagesLoader(-jp2Convert & -tifConver)
+1) ImagesLoader(-jp2Convert & -tifConvert)
 
 This script creates a new directory of 'smaller' jpeg images (WITH Metadata) from an existing directory of images. It also creates a mosaic file that 
 groups all the smaller images together - and a tracking log (csv) file.
@@ -27,7 +27,7 @@ groups all the smaller images together - and a tracking log (csv) file.
 The folder of the smaller images is projected in the source projection (note: there is special handling for  cases with no known projection) 
 AND are located in the same directory as the source images (in a folder with the source name concatenated with '_Reduced_Images_v#' at the end.
 
-You MUST before running the ImagesLoader do 2 things:
+You MUST before running the ImagesLoader-jp2Convert you must do 2 things:
 
 1) use 'NoMetadataImagesList' to create a metadata csv file to be loaded into the reduced images that are in the '_Reduced_Images_v#'.
 
